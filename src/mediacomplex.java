@@ -1,7 +1,7 @@
 package src;
 import java.util.Scanner;
 
-public class mediaif {
+public class mediacomplex {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -34,12 +34,15 @@ public class mediaif {
 		media = soma/4;
 		
 		System.out.println("Sua média é: "+media);
-        if (media>=6) {
-            System.out.println("Você está aprovado");
-        } else{
+        if (media==10) {
+            System.out.println("Você está aprovado com louvor");
+        } else if( media >=8) { 
+            System.out.println("Você está aprovado com mérito");
+        } else if( media >=6) { 
+            System.out.println("Você está aprovado com destaque");
+        } else  { 
             System.out.println("Você está reprovado");
         }
-		
 		sc.close();
 	}
 
