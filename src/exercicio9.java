@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class exercicio9 {
@@ -25,6 +27,8 @@ public class exercicio9 {
 
        if (imc > 30 ) {
             System.out.println("Seu IMC é: "+ imc + ". Obesidade");
+
+            // try
             
 
     }
