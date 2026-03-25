@@ -17,8 +17,13 @@ public class ifs {
         estadoCivil = sc.next();
 
 
-        if (idade>= min && idade <=max && estadoCivil.equalsIgnoreCase("solteiro"))  {
+        if (idade>= min && idade <=max && estadoCivil.equalsIgnoreCase("solteiro"))  
             System.out.println("Você pode prestar o concurso");
+         else {
+            
+            System.out.println("Você não pode participar do concurso");
+            System.out.println("Tenta novamente em outra oportunidade");
+            
         }
 
         sc.close();
