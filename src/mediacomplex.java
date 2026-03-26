@@ -15,7 +15,7 @@ public class mediacomplex {
 		n1 = sc.nextDouble();
         if (n1<0 || n1>10) 
             System.exit(0);
-        
+    
 		System.out.println("Digite a nota 2: ");
 		n2 = sc.nextDouble();
         if (n2<0 || n2>10) 
