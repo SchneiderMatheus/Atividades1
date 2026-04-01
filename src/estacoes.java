@@ -1,4 +1,4 @@
-package src;
+
 import java.util.Scanner;
 public class estacoes {
     public static void main(String[] args) {

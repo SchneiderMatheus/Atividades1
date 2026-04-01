@@ -1,4 +1,4 @@
-package src;
+
 import java.util.Scanner;
 public class ifs {
     public static void main(String[] args) {
