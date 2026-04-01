@@ -52,15 +52,15 @@ public class candidato {
             System.out.println("Você foi aprovado no processo, você acertou " +contador +" questões");
             
         } else {
-            System.out.println("Reprovado no processo, na prova de ");
+            
             if (!flagCalculo) {
-                System.out.println("calculo");
+                System.out.println("Reprovado na prova de Calculo");
                 
             }
             if (!flagLogico) {
-                System.out.println("logica");
+                System.out.println("Reprovado na prova de Logica");
 
-                System.out.println("voce acertou apenas "+contador +" questões");
+                System.out.println("Você acertou apenas "+contador +" questões nos dois testes");
             }
         }
         
