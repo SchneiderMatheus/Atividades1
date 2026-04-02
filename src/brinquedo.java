@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class brinquedo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        boolean podeEntrar = false; 
+        boolean podeEntrar2 = false;
+        double altura,idade;
+
+        System.out.println("Qual a sua altura?");
+        altura = sc.nextDouble();
+        System.out.println("Qual a sua idade?");
+        idade = sc.nextDouble();
+
+        if (altura >= 1.40) {
+            podeEntrar = true;
+        }
+        if (idade >= 10) {
+            podeEntrar2 = true;
+        }
+
+        if (podeEntrar && podeEntrar2) {
+            System.out.println("Entrada Permitida");
+        }else{
+            System.out.println("Entrada negada");
+        }
+        sc.close();
+
+    }
+}
