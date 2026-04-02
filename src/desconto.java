@@ -28,10 +28,8 @@ public class desconto {
             percentual = 05;
 
             
-        }else if (!clienteVIP && valorCompra<200) {
+        }else  {
             valorFinal = valorCompra;
-            valorDesconto = 0;
-            percentual = 0;
         }
         System.out.println("Valor da Compra: R$ "+ valorCompra);
         System.out.println("Percentual de desconto aplicado: " +percentual +"%");
