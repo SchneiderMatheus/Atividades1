@@ -4,8 +4,7 @@ public class brinquedo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        boolean podeEntrar = false; 
-        boolean podeEntrar2 = false;
+        boolean podeEntrar = false;
         double altura,idade;
 
         System.out.println("Qual a sua altura?");
@@ -13,14 +12,10 @@ public class brinquedo {
         System.out.println("Qual a sua idade?");
         idade = sc.nextDouble();
 
-        if (altura >= 1.40) {
+        if (altura >= 1.40 && idade>= 10) {
             podeEntrar = true;
         }
-        if (idade >= 10) {
-            podeEntrar2 = true;
-        }
-
-        if (podeEntrar && podeEntrar2) {
+        if (podeEntrar) {
             System.out.println("Entrada Permitida");
         }else{
             System.out.println("Entrada negada");
