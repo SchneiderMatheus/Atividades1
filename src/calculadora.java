@@ -19,7 +19,7 @@ public class calculadora {
         System.out.println("digite a opção desejada: ");
 
         opcao = sc.next().charAt(0);
-
+        
         switch (opcao) {
             case '1':
                 double soma = valorA + valorB;
@@ -46,7 +46,7 @@ public class calculadora {
                 break;
             default:
                 System.out.println("Valor Inválido");
-        }
+        } 
         sc.close();
     }
 
