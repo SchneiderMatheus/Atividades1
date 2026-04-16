@@ -10,7 +10,7 @@ public class While2 {
             System.out.println("Digite a nota");
             valor = sc.nextInt();
             somatorio += valor;
-            valores = valores +" "+valor;
+            valores = valores +" "+valor;// adiciona cada valor adicionado
 
         } while (valor !=0); 
             System.out.println("Valores: "+valores+"\nSomatorio= "+somatorio);
